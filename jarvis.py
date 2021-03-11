@@ -16,8 +16,7 @@ engine.setProperty('voice', voices[0].id)
 def speak(audio):
     engine.say(audio)
     engine.runAndWait()
-
-
+    
 def take_command():
     # It takes microphone input from the user and returns string output
 
